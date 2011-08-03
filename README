@@ -1,1 +1,10 @@
 1C + PostgreSQL[Patched] + HaspLM
+
+How to use:
+Add to this line in /etc/layman/layman.cfg:
+
+..
+overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
+            https://raw.github.com/arrrght/1C-PostgreSQL-HaspLM/master/overlay.xml
+..
+

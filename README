@@ -5,6 +5,9 @@ Add to this line in /etc/layman/layman.cfg:
 
 ..
 overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-            https://raw.github.com/arrrght/1C-PostgreSQL-HaspLM/master/overlay.xml
+            https://raw.github.com/arrrght/1C-PostgreSQL-HaspLM/master/profiles/overlay.xml
 ..
 
+Then activate and sync it:
+# layman -S
+# layman -a 1C-PostgreSQL-HaspLM

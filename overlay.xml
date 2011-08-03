@@ -1,0 +1,11 @@
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>1C-PostgreSQL-HaspLM</name>
+		<description>1C + PostgreSQL/patched[1C] + Hasp LM</description>
+		<homepage>https://github.com/arrrght/1C-PostgreSQL-HaspLM</homepage>
+		<owner>
+			<email>arrrght@gmail.com</email>
+		</owner>
+		<source type="git">git://github.com/arrrght/1C-PostgreSQL-HaspLM</source>
+	</repo>
+</repositories>
